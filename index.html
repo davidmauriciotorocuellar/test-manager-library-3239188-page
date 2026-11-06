@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Library - Inicio</title>
+    <!-- Tailwind CSS para un diseño rápido y profesional -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navegación -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">Manager Library</h1>
+            <a href="http://localhost:3000/login" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition duration-200">
+                Iniciar Sesión
+            </a>
+        </div>
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <main class="max-w-6xl mx-auto px-4 py-16 text-center">
+        <h2 class="text-5xl font-extrabold text-gray-900 mb-6">
+            El control total de tu biblioteca
+        </h2>
+        <p class="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
+            Un sistema diseñado bajo los principios de Clean Architecture y Spec-Driven Development. 
+            Gestiona el catálogo, controla los préstamos y mantén a tus socios al día.
+        </p>
+        <div class="flex justify-center space-x-4">
+            <a href="#features" class="text-blue-600 font-semibold hover:underline">Ver características &darr;</a>
+        </div>
+    </main>
+
+    <!-- Características -->
+    <section id="features" class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div class="p-6 border rounded-lg shadow-sm">
+                <h3 class="text-xl font-bold mb-2">Catálogo Organizado</h3>
+                <p class="text-gray-600">Búsqueda rápida, control de ejemplares disponibles y clasificación por categorías fijas.</p>
+            </div>
+            <div class="p-6 border rounded-lg shadow-sm">
+                <h3 class="text-xl font-bold mb-2">Gestión de Préstamos</h3>
+                <p class="text-gray-600">Asignación ágil de libros con cálculo automático de fechas de vencimiento.</p>
+            </div>
+            <div class="p-6 border rounded-lg shadow-sm">
+                <h3 class="text-xl font-bold mb-2">Reportes en Tiempo Real</h3>
+                <p class="text-gray-600">Estadísticas precisas de los libros más prestados y alertas de socios en mora.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-gray-800 text-white py-8 mt-12 text-center">
+        <p>&copy; 2026 Manager Library. Desarrollo bajo especificaciones SDD.</p>
+    </footer>
+
+</body>
+</html>
